@@ -1,0 +1,186 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    transition: .4s all ease;
+}
+
+body {
+    background: hsl(226, 43%, 10%);
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 1rem;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 9%;
+}
+
+.report-jery {
+    text-align: left;
+    background: hsl(226, 43%, 10%);
+    border-radius: 21px;
+    box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, .2);
+}
+
+.profile {
+    background:  hsl(246, 80%, 60%);
+    padding: 1.5rem;
+    padding-bottom: 5rem;
+    color:#dfdbff;
+    border-radius: 21px;
+}
+
+
+.bg-img {
+    position: relative;
+    right: -120px;
+    overflow: hidden;
+    width: 30%;
+    margin-bottom: -1rem;
+    z-index: 1;
+}
+
+.card {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 21px;
+    color:  #dfdbff;
+    box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+
+.more {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-img {
+    width: 30%;
+    border-radius: 50%;
+    border: 2px solid hsl(236, 100%, 87%);
+    margin-bottom: 2rem;
+}
+
+.title {
+    font-size: .9rem;
+    font-weight: 400;
+    opacity: .7;
+}
+
+.user-name {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+
+.category {
+    font-size: 18px;
+}
+
+.categories {
+    padding: 1.5rem;
+    font-size: .8rem;
+    list-style: none;
+}
+
+.stat-category {
+    padding-bottom: .8rem;
+    color: #9e9bad;
+    cursor: pointer;
+}
+
+.is-active {
+    color:  #dfdbff;
+}
+
+.stat-category:hover {
+    color:  #dfdbff;
+}
+.stats-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+
+.ellipsis {
+    width: 30%;
+    margin-left: 2.5rem;
+}
+
+.work {
+    background: hsl(15, 100%, 70%);
+}
+
+.play {
+    background:hsl(195, 74%, 62%);
+}
+
+.study {
+    background: hsl(348, 100%, 68%);
+}
+
+.exercise {
+    background: hsl(145, 58%, 55%);
+}
+
+.workout-icon {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+.social {
+    background: hsl(264, 64%, 52%);
+}
+.heart-icon {
+    padding-bottom: 1rem;
+}
+
+.self-care {
+    background: hsl(43, 84%, 65%);
+}
+
+
+.stat-card {
+    background:  hsl(235, 46%, 20%);
+    padding: 1.5rem;
+    border-radius: 21px;
+    position: relative;
+    z-index: 1;
+}
+
+.stat-card:hover {
+    background: #34397b;
+}
+
+.stats {
+    display: block;
+}
+
+.category {
+    font-size: .8rem;
+}
+
+.hours {
+    font-size: 2rem;
+    font-weight: 400;
+    padding-top: 1rem;
+    padding-bottom: .6rem;
+}
+
+.history {
+    font-size: .7rem;
+}
